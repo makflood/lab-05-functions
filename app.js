@@ -10,7 +10,6 @@ function sum(a,b){ //eslint-disable-line
   var total = a + b;
   var equation = 'The sum of ' + a + ' and ' + b + ' is ' + total + '.';
   return [total, equation];
-
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -26,7 +25,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+  var total = a * b;
+  var equation = 'The product of ' + a + ' and ' + b + ' is ' + total + '.';
+  return [total, equation];
 }
 
 // Here is the test for multiply(); uncomment it to run it
